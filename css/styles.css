@@ -11,17 +11,6 @@ img {
 	max-width: 100%;
 }
 
-.white {
-	color: white;
-}
-.bkwhite {
-	background-color: white;
-}
-
-.rounded {
-	border-radius: 5px;
-}
-
 /* Typography */
 h1, h2, h3 {
 	font-family: 'Abel', Helvetica, Arial, sans-serif;
@@ -32,7 +21,7 @@ p {
 	margin-bottom: 15px;
 }
 a {
-	color: lightgrey;
+	color: grey;
 	text-decoration: none;
 }
 a:hover {
@@ -48,58 +37,54 @@ li {
 	text-decoration: none;
 }
 
-/* Nav */
-.strip1 {
-	background-image: url("../images/bk1.jpg");
-	background-size: cover;
-	background-position: center;
-	height: 25px;
+/* Content */
+.main { 
+  display: table;
+  width: 100%;
 }
-.mainhead {
-	background: black;
-	min-height: 460px;
-	padding-bottom: 40px;
+.content { 
+  display: table-row; 
+  height: 100%;
+  float: left;
+  width: 50%;
 }
-
-.logo img {
-	max-width: 150px;
+.content-body { 
+  display: table-cell;
 }
-.topnav {
-	text-align: center;
-	margin: -30px auto 0;
+.left-block {
+	padding: 25px 50px 25px 25px;
 }
-.topnav ul li {
-	display: inline-block;
-	font-size: 15px;
+.left-block:after {
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: black;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: skew(-15deg);
+    -ms-transform: skew(-15deg);
+    transform: skew(-15deg);
+    z-index: -1;
 }
-.topnav ul li a {
-	padding: 15px 25px;
-	display: block;
+.left-block h1, .left-block p {
 	color: white;
 }
 
-/* Header */
-.headline {
-    color: white;
-    background-image: url(../images/icons.png);
-    display: block;
-    background-size: cover;
-    background-position-y: 60px;
-    height: 450px;
-    margin: 50px 0;
+/* Portfolio */
+.portfolio {
+	float: right;
+	padding-top: 25px;
 }
-.headline p {
-	font-size: 18px;
+.linkbox {
+	height: 100px;
+	background: red;
+	border-radius: 3px;
 }
-.headline button {
-	margin-top: 30px;
-}
-.home-banner img {
-	max-width: 800px;
-}
-.tagline {
-	text-align: right;
-}
+
 
 /* Buttons */
 button {
@@ -114,19 +99,71 @@ button:hover {
 	color: white;
 }
 
-/* Skills */
-.skills {
-	background-image: url(../images/bk-skills.jpg);
-	background-size: cover;
-	background-position: center;
-	min-height: 350px;
-	padding: 100px 0;
+/* Footer */
+footer {
+	clear: both;
+	padding-left: 25px;
 }
-.homebox {
-	min-height: 200px;
-	padding: 20px; 
-	margin: 0 0 20px 0;
-	background-color:rgba(300, 300, 300, 0.95);
+
+/* Social */
+ul.social-tabs li {
+	position: relative;
+	width: 30px;
+	height: 35px;
+	display: inline-block;
+	margin: 15px 15px 15px 0;
+}
+li.social-tab:after {
+	position: absolute;
+    top: 0;
+    left: 0;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: white;
+    color: black;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+li.social-tab:hover:after {
+	color: white;
+	border: 1px solid white;
+}
+.github:after {
+	content: "\f09b";
+    padding: 3px 0 0 8px;
+}
+.github:hover:after {
+	background-color: #24292e;
+	cursor: pointer;
+}
+.codepin:after {
+	content: "\f1cb";
+    padding: 3px 0 0 6px;
+}
+.codepin:hover:after {
+	background-color: #000;
+	cursor: pointer;
+}
+.twitter:after {
+	content: "\f099";
+    padding: 4px 0 0 8px;
+}
+.twitter:hover:after {
+	background-color: #5fa8dc;
+	cursor: pointer;
+}
+.tumblr:after {
+	content: "\f173";
+    padding: 4px 0 0 10px;
+}
+.tumblr:hover:after {
+	background-color: #35465c;
+	cursor: pointer;
 }
 
 @media (max-width: 991px) {
