@@ -1,0 +1,150 @@
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #454545;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.white {
+	color: white;
+}
+.bkwhite {
+	background-color: white;
+}
+
+.rounded {
+	border-radius: 5px;
+}
+
+/* Typography */
+h1, h2, h3 {
+	font-family: 'Abel', Helvetica, Arial, sans-serif;
+	margin: 0 0 25px 0;
+}
+p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	margin-bottom: 15px;
+}
+a {
+	color: lightgrey;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style: none;
+	overflow: auto
+	margin: 0;
+	padding: 0;
+}
+li {
+	text-decoration: none;
+}
+
+/* Nav */
+.strip1 {
+	background-image: url("../images/bk1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 25px;
+}
+.mainhead {
+	background: black;
+	min-height: 460px;
+	padding-bottom: 40px;
+}
+
+.logo img {
+	max-width: 150px;
+}
+.topnav {
+	text-align: center;
+	margin: -30px auto 0;
+}
+.topnav ul li {
+	display: inline-block;
+	font-size: 15px;
+}
+.topnav ul li a {
+	padding: 15px 25px;
+	display: block;
+	color: white;
+}
+
+/* Header */
+.headline {
+    color: white;
+    background-image: url(../images/icons.png);
+    display: block;
+    background-size: cover;
+    background-position-y: 60px;
+    height: 450px;
+    margin: 50px 0;
+}
+.headline p {
+	font-size: 18px;
+}
+.headline button {
+	margin-top: 30px;
+}
+.home-banner img {
+	max-width: 800px;
+}
+.tagline {
+	text-align: right;
+}
+
+/* Buttons */
+button {
+	background: white;
+	color: black;
+	font-weight: bold;
+	border: 2px solid white;
+	padding: 10px 45px;
+}
+button:hover {
+	background: black;
+	color: white;
+}
+
+/* Skills */
+.skills {
+	background-image: url(../images/bk-skills.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 350px;
+	padding: 100px 0;
+}
+.homebox {
+	min-height: 200px;
+	padding: 20px; 
+	margin: 0 0 20px 0;
+	background-color:rgba(300, 300, 300, 0.95);
+}
+
+@media (max-width: 991px) {
+	.headline {
+	    background-size: 100%;
+	    background-position-y: 100px;
+	    background-repeat: no-repeat;
+	    height: 350px;
+	}
+}
+@media (max-width: 700px) {
+	.headline {
+	    background-position-y: 135px;
+	    margin: 0;
+	}
+}
+@media (max-width: 525px) {
+	.headline {
+	    background-position-y: 210px;
+	}
+}
