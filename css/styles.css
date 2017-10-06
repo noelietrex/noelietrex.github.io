@@ -5,6 +5,8 @@ body {
 	background-color: white;
 	margin: 0;
 	padding: 0;
+	background: url('../images/bk2.jpg') no-repeat center center fixed;
+	background-size: cover;
 }
 
 img {
@@ -81,10 +83,25 @@ li {
 }
 .linkbox {
 	height: 100px;
-	background: red;
 	border-radius: 3px;
+	opacity: 0.85;
 }
-
+a:hover .linkbox {
+	opacity: 1;
+	transition: ease;
+	-webkit-box-shadow: 1px 2px 3px 0px rgba(26,26,26,0.5);
+	-moz-box-shadow: 1px 2px 3px 0px rgba(26,26,26,0.5);
+	box-shadow: 1px 2px 3px 0px rgba(26,26,26,0.5);
+}
+.century {
+	background: url('../images/thumb-century.jpg');
+}
+.achieve {
+	background: url('../images/thumb-achieve.jpg');
+}
+.rh {
+	background: url('../images/thumb-rh.jpg');
+}
 
 /* Buttons */
 button {
