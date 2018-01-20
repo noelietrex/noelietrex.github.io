@@ -216,6 +216,24 @@ li.social-tab:hover:after {
 	    display: block;
 	    min-height: 340px;
 	}
+	footer {
+		padding: 0;
+	}
+	ul.social-tabs {
+		text-align: center;
+	}
+	.github:after {
+		padding: 3px 0 0 1px;
+	}
+	.codepin:after {
+		padding: 3px 0 0 0;
+	}
+	.twitter:after {
+    		padding: 4px 0 0 2px;
+	}
+	.tumblr:after {
+    		padding: 4px 0 0 0px;
+	}
 }
 @media (max-width: 700px) {
 	.headline {
