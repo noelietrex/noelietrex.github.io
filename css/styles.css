@@ -212,6 +212,10 @@ li.social-tab:hover:after {
 	    -ms-transform: skewY(-10deg);
 	    transform: skewY(-10deg);
 	}
+	.content-body {
+	    display: block;
+	    min-height: 340px;
+	}
 }
 @media (max-width: 700px) {
 	.headline {
