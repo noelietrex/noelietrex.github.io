@@ -191,6 +191,30 @@ li.social-tab:hover:after {
 	    background-repeat: no-repeat;
 	    height: 350px;
 	}
+	.content {
+	    display: block;
+	    height: auto;
+	    width: 100%;
+	    float: none;
+	}
+	.portfolio {
+		float: none;
+	}
+	.linkbox {
+		margin: 15px auto;
+	}
+	.left-block:after {
+		width: 100%;
+		-webkit-transform-origin: 0 100%;
+	    -ms-transform-origin: 0 100%;
+	    transform-origin: 0 100%;
+	    -webkit-transform: skewY(-10deg);
+	    -ms-transform: skewY(-10deg);
+	    transform: skewY(-10deg);
+}
+
+
+	}
 }
 @media (max-width: 700px) {
 	.headline {
