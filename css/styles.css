@@ -211,9 +211,6 @@ li.social-tab:hover:after {
 	    -webkit-transform: skewY(-10deg);
 	    -ms-transform: skewY(-10deg);
 	    transform: skewY(-10deg);
-}
-
-
 	}
 }
 @media (max-width: 700px) {
