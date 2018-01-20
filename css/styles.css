@@ -218,6 +218,7 @@ li.social-tab:hover:after {
 	}
 	footer {
 		padding: 0;
+		margin-top: 40px;
 	}
 	ul.social-tabs {
 		text-align: center;
