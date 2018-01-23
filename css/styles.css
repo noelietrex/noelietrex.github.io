@@ -103,6 +103,15 @@ a:hover .linkbox {
 .rh {
 	background: url('../images/thumb-rh.jpg');
 }
+.lxr {
+	background: url('../images/thumb-lxr.jpg');
+}
+.gb {
+	background: url('../images/thumb-gb.jpg');
+}
+.lifetime {
+	background: url('../images/thumb-lifetime.jpg');
+}
 
 /* Buttons */
 button {
