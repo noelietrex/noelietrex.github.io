@@ -113,6 +113,15 @@ a:hover .linkbox {
 .lifetime {
 	background: url('../images/thumb-lifetime.jpg');
 }
+.legacy {
+	background: url('../images/thumb-legacy.jpg');
+}
+.ashville {
+	background: url('../images/thumb-ashville.jpg');
+}
+.vero {
+	background: url('../images/thumb-vero.jpg');
+}
 
 /* Buttons */
 button {
