@@ -54,7 +54,7 @@ li {
   display: table-cell;
 }
 .left-block {
-	padding: 25px 50px 25px 25px;
+	padding: 25px 80px 25px 25px;
 }
 .left-block:after {
 	content: '';
@@ -221,6 +221,9 @@ li.social-tab:hover:after {
 	}
 	.linkbox {
 		margin: 15px auto;
+	}
+	.left-block {
+		padding-right: 40px;
 	}
 	.left-block:after {
 		width: 100%;
