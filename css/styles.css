@@ -92,7 +92,9 @@ li {
 .linkbox p {
 	color: white;
 	text-align: center;
-	margin-top: 60px;
+	padding-top: 60px;
+	font-size: 18px;
+	font-weight: bold;
 }
 a:hover .linkbox {
 	opacity: 1;
