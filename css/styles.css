@@ -88,11 +88,11 @@ li {
 	border-radius: 150px;
 	opacity: 0.5;
 }
-.linkbox p {
+.portfolio .col-md-4 p {
 	color: white;
 	text-align: center;
 	padding-top: 60px;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: bold;
 }
 a:hover .linkbox {
