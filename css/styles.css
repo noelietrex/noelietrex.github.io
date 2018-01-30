@@ -79,7 +79,7 @@ li {
 /* Portfolio */
 .portfolio {
 	float: right;
-	padding-top: 25px;
+	padding-top: 15px;
 }
 .linkbox {
 	height: 150px;
@@ -91,7 +91,7 @@ li {
 .portfolio .col-md-4 p {
 	color: white;
 	text-align: center;
-	padding: 20px 0 5px;
+	padding: 10px 0 20px;
 	font-weight: bold;
 }
 a:hover .linkbox {
