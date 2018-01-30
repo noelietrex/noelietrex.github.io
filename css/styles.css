@@ -86,7 +86,13 @@ li {
 	width: 150px;
 	margin: 15px 0;
 	border-radius: 150px;
-	opacity: 0.85;
+	opacity: 0.5;
+	background-color: black;
+}
+.linkbox p {
+	color: white;
+	text-align: center;
+	margin-top: 60px;
 }
 a:hover .linkbox {
 	opacity: 1;
@@ -100,6 +106,9 @@ a:hover .linkbox {
 }
 .achieve {
 	background: url('../images/thumb-achieve.jpg');
+}
+.ei {
+	background: url('../images/thumb-ei.jpg');
 }
 .rh {
 	background: url('../images/thumb-rh.jpg');
