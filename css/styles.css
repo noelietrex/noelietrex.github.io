@@ -27,7 +27,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 ul {
 	list-style: none;
@@ -87,7 +87,6 @@ li {
 	margin: 15px 0;
 	border-radius: 150px;
 	opacity: 0.5;
-	background-color: black;
 }
 .linkbox p {
 	color: white;
@@ -102,6 +101,10 @@ a:hover .linkbox {
 	-webkit-box-shadow: 1px 2px 3px 0px rgba(26,26,26,0.5);
 	-moz-box-shadow: 1px 2px 3px 0px rgba(26,26,26,0.5);
 	box-shadow: 1px 2px 3px 0px rgba(26,26,26,0.5);
+	text-decoration: none;
+}
+a:hover .linkbox p {
+	text-decoration: none;
 }
 .century {
 	background: url('../images/thumb-century.jpg');
