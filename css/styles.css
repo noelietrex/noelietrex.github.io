@@ -151,7 +151,6 @@ button:hover {
 
 /* Footer */
 footer {
-	clear: both;
 	padding-left: 25px;
 }
 
@@ -253,6 +252,7 @@ li.social-tab:hover:after {
 	    min-height: 340px;
 	}
 	footer {
+		clear: both;
 		padding: 0;
 		margin-top: 40px;
 	}
