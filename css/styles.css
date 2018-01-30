@@ -84,15 +84,14 @@ li {
 .linkbox {
 	height: 150px;
 	width: 150px;
-	margin: 15px 0;
+	margin: 0 auto;
 	border-radius: 150px;
 	opacity: 0.5;
 }
 .portfolio .col-md-4 p {
 	color: white;
 	text-align: center;
-	padding-top: 60px;
-	font-size: 17px;
+	padding: 20px 0 5px;
 	font-weight: bold;
 }
 a:hover .linkbox {
