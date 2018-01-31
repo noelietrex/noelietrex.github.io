@@ -1,12 +1,10 @@
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
-	color: #454545;
+	color: #333;
 	background-color: white;
 	margin: 0;
 	padding: 0;
-	background: url('../images/bk.jpg') no-repeat center center fixed;
-	background-size: cover;
 }
 
 img {
@@ -23,7 +21,7 @@ p {
 	margin-bottom: 15px;
 }
 a {
-	color: grey;
+	color: lightgrey;
 	text-decoration: none;
 }
 a:hover {
