@@ -40,41 +40,17 @@ li {
 }
 
 /* Content */
-.main { 
-  display: table;
-  width: 100%;
+.black {
+	background-color: black;
 }
-.content { 
-  display: table-row; 
-  height: 100%;
-  float: left;
-  width: 50%;
+
+.subbanner {
+	padding: 45px 0;
 }
-.content-body { 
-  display: table-cell;
-}
-.left-block {
-	padding: 25px 80px 25px 25px;
-}
-.left-block:after {
-	content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: black;
-    -webkit-transform-origin: 100% 0;
-    -ms-transform-origin: 100% 0;
-    transform-origin: 100% 0;
-    -webkit-transform: skew(-15deg);
-    -ms-transform: skew(-15deg);
-    transform: skew(-15deg);
-    z-index: -1;
-}
-.left-block h1, .left-block p {
+.subbanner h1 {
 	color: white;
 }
+
 
 /* Portfolio */
 .portfolio {
@@ -152,7 +128,10 @@ button:hover {
 
 /* Footer */
 footer {
-	padding-left: 25px;
+	width: 100%;
+	background-color: grey;
+	text-align: center;
+	padding: 40px 0;
 }
 
 /* Social */
