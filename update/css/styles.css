@@ -60,6 +60,10 @@ button:hover {
 	color: white;
 }
 
+h2 {
+	margin-top: 25px;
+}
+
 /* Middle */
 .banner-middle {
 	width: 100%;
@@ -77,6 +81,21 @@ button:hover {
 }
 
 /* Portfolio */
+
+.bubble {
+	border-radius: 200px;
+	overflow: hidden;
+}
+
+.module {
+	width: 200px;
+	height: 200px;
+}
+
+.portfolio p {
+	text-align: center;
+	color: white;
+}
 
 .century {
 	background: url('../images/thumb-century.jpg');
@@ -108,8 +127,6 @@ button:hover {
 .vero {
 	background: url('../images/thumb-vero.jpg');
 }
-
-
 
 /* Footer */
 footer {
@@ -187,61 +204,7 @@ li.social-tab:hover:after {
 }
 
 @media (max-width: 991px) {
-	.headline {
-	    background-size: 100%;
-	    background-position-y: 100px;
-	    background-repeat: no-repeat;
-	    height: 350px;
-	}
-	.content {
-	    display: block;
-	    height: auto;
-	    width: 100%;
-	    float: none;
-	}
-	.portfolio {
-		float: none;
-	}
-	.linkbox {
-		margin: 15px auto;
-	}
-	.left-block {
-		padding-right: 40px;
-	}
-	.left-block:after {
-		width: 100%;
-		height: 350px;
-		-webkit-transform-origin: 0 100%;
-		-ms-transform-origin: 0 100%;
-		transform-origin: 0 100%;
-		-webkit-transform: skewY(-10deg);
-		-ms-transform: skewY(-10deg);
-		transform: skewY(-10deg);
-	}
-	.content-body {
-	    display: block;
-	    min-height: 340px;
-	}
-	footer {
-		clear: both;
-		padding: 0;
-		margin-top: 40px;
-	}
-	ul.social-tabs {
-		text-align: center;
-	}
-	.github:after {
-		padding: 3px 0 0 1px;
-	}
-	.codepin:after {
-		padding: 3px 0 0 0;
-	}
-	.twitter:after {
-    		padding: 4px 0 0 2px;
-	}
-	.tumblr:after {
-    		padding: 4px 0 0 0px;
-	}
+
 }
 @media (max-width: 989px) {
 	.banner-middle button {
@@ -250,10 +213,6 @@ li.social-tab:hover:after {
 	}
 }
 @media (max-width: 700px) {
-	.headline {
-	    background-position-y: 135px;
-	    margin: 0;
-	}
 	.banner-middle {
 		text-align: center;
 	}
@@ -266,7 +225,4 @@ li.social-tab:hover:after {
 	}
 }
 @media (max-width: 525px) {
-	.headline {
-	    background-position-y: 210px;
-	}
 }
