@@ -39,7 +39,7 @@ li {
 
 /* Buttons */
 button {
-	background-color: black
+	background-color: black;
 	color: white;
 	border: 2px solid black;
 }
@@ -176,6 +176,16 @@ li.social-tab:hover:after {
 	cursor: pointer;
 }
 
+@media (min-width: 1200px) {
+	.banner-middle button {
+		padding: 15px 0;
+		right: 22%;
+	}
+	.banner-middle button a {
+		padding: 15px 35px;
+	}
+}
+
 @media (max-width: 991px) {
 	.headline {
 	    background-size: 100%;
@@ -231,6 +241,12 @@ li.social-tab:hover:after {
 	}
 	.tumblr:after {
     		padding: 4px 0 0 0px;
+	}
+}
+@media (max-width: 989px) {
+	.banner-middle button {
+		top: 45px;
+		right: 16%;
 	}
 }
 @media (max-width: 700px) {
