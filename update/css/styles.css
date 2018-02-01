@@ -37,6 +37,17 @@ li {
 	text-decoration: none;
 }
 
+/* Buttons */
+button {
+	background-color: black
+	color: white;
+	border: 2px solid black;
+}
+button:hover {
+	background-color: white;
+	color: black;
+}
+
 /* Content */
 .black {
 	background-color: black;
@@ -57,8 +68,13 @@ li {
 }
 .banner-middle button {
 	position: absolute;
+	padding: 10px 0;
+	top: 60px;
+	right: 20%;
 }
-
+.banner-middle button a {
+	padding: 10px 25px;
+}
 
 /* Portfolio */
 
@@ -93,18 +109,7 @@ li {
 	background: url('../images/thumb-vero.jpg');
 }
 
-/* Buttons */
-button {
-	padding: 10px 45px;
-	background-color: #820d5b;
-	color: white;
-	border: 2px solid #820d5b;
-}
-button:hover {
-	background-color: white;
-	border-color: #820d5b;
-	color: #820d5b;
-}
+
 
 /* Footer */
 footer {
@@ -144,7 +149,6 @@ li.social-tab:hover:after {
 }
 .github:after {
 	content: "\f09b";
-    padding: 3px 0 0 8px;
 }
 .github:hover:after {
 	background-color: #24292e;
@@ -152,7 +156,6 @@ li.social-tab:hover:after {
 }
 .codepin:after {
 	content: "\f1cb";
-    padding: 3px 0 0 6px;
 }
 .codepin:hover:after {
 	background-color: #000;
@@ -160,7 +163,6 @@ li.social-tab:hover:after {
 }
 .twitter:after {
 	content: "\f099";
-    padding: 4px 0 0 8px;
 }
 .twitter:hover:after {
 	background-color: #5fa8dc;
@@ -168,7 +170,6 @@ li.social-tab:hover:after {
 }
 .tumblr:after {
 	content: "\f173";
-    padding: 4px 0 0 10px;
 }
 .tumblr:hover:after {
 	background-color: #35465c;
