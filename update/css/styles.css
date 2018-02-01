@@ -83,13 +83,14 @@ h2 {
 /* Portfolio */
 
 .bubble {
-	border-radius: 200px;
-	overflow: hidden;
+	margin-bottom: 15px;
 }
 
 .module {
-	width: 200px;
-	height: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin: 15px auto;
 }
 
 .portfolio p {
