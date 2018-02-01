@@ -254,6 +254,16 @@ li.social-tab:hover:after {
 	    background-position-y: 135px;
 	    margin: 0;
 	}
+	.banner-middle {
+		text-align: center;
+	}
+	.banner-middle button {
+		position: relative;
+		right: 0;
+		top: 0;
+		width: calc(100% - 30px);
+		margin: 25px auto;
+	}
 }
 @media (max-width: 525px) {
 	.headline {
