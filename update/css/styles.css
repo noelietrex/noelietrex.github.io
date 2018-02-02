@@ -55,26 +55,31 @@ button:hover {
 /* Content */
 .topbanner {
 	padding: 45px 0;
-	display: table-cell;
+    width: 100%;
+    display: table;
+    position: relative;
 }
 .topbanner:after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 100%;
+    right: 0;
+    width: 100px;
+    height: 225px;
     background: black;
     -webkit-transform-origin: 0 100%;
 	-ms-transform-origin: 0 100%;
 	transform-origin: 0 100%;
-	-webkit-transform: skewY(-10deg);
-	-ms-transform: skewY(-10deg);
-	transform: skewY(-10deg);
-    z-index: -1;
+	-webkit-transform: skewY(-4deg);
+	-ms-transform: skewY(-4deg);
+	transform: skewY(-4deg);
+    z-index: 1;
  }
 .topbanner h1 {
 	color: white;
+	z-index: 9;
+    position: absolute;
 }
 h2 {
 	margin-top: 25px;
@@ -84,6 +89,7 @@ h2 {
 .portfolio {
 	background: url('../images/bk.jpg') no-repeat center;
 	background-size: cover;
+	padding-top: 135px;
 }
 .bubble {
 	background: black;
@@ -266,6 +272,10 @@ li.social-tab:hover:after {
 		top: 0;
 		width: calc(100% - 30px);
 		margin: 25px auto;
+	}
+	h1 {
+		font-size: 28px;
+		line-height: 1.25;
 	}
 }
 @media (max-width: 525px) {
