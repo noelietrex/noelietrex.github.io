@@ -53,13 +53,26 @@ button:hover {
 }
 
 /* Content */
-.black {
-	background-color: black;
-}
 .topbanner {
 	padding: 45px 0;
-	min-height: 350px;
+	display: table-cell;
 }
+.topbanner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: black;
+    -webkit-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	-webkit-transform: skewY(-10deg);
+	-ms-transform: skewY(-10deg);
+	transform: skewY(-10deg);
+    z-index: -1;
+ }
 .topbanner h1 {
 	color: white;
 }
