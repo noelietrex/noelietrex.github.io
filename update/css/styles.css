@@ -180,6 +180,12 @@ h2 {
 	color: black;
 }
 
+/* Current */
+.current {
+	background: black;
+	min-height: 250px;
+}
+
 /* Footer */
 footer {
 	width: 100%;
